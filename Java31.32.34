@@ -1,0 +1,15 @@
+java31.32.34.38课程
+public class homework01{
+
+	public static void main(String[] args){
+
+		//System.out.println("Hallo World!");    -----01
+		//System.out.println("姓名\t性别\t籍贯\t住址\n沈\t男\t宁波\t宁波");   ----02
+		//java编译步骤：1.编写源代码 2.javac编译 3.java运行
+    //使用tab，代码整体右移，shift+tab整体左移
+    //运算符和 = 两边，给空格bsp: int n = 1 + 4;
+    //行宽字符不要超过80
+    //易犯错误1.编译或者运行时，找不到文件 java Hello.java 2.主类名和文件名不一致 3.缺少； 4.拼写错误 
+	}
+
+}
