@@ -13,3 +13,35 @@ public class homework01{
 	}
 
 }
+java 39 加号的运算  
+
+System.out.println(100+98);//198
+System.out.println("100"+98);//10098
+
+System.out.println(100+3+"hallo");//103hallo
+System.out.println("hallo"+100+3);//hallo1003
+
+
+java  40数据类型
+基本数据类型      后面数字代表占几个字节，一个字节是8节二进制
+	数值型：整数类型：byte1 short2 int4 long8
+		浮点类型：float4 double8
+	字符型：char2  存放单个字符 a
+	布尔类型：boolean1 true false
+引用数据类型        
+	类class
+	接口interface
+	数组[]
+
+java 41整形使用 42整形细节
+byte -128 ~ 127
+------
+public class IntDetail{
+
+	public static void main(String[] args){
+			int n1 = 1;//4个字节
+			//int n2 = 1L;//不对,不兼容的类型: 从long转换到int可能会有损失
+			long n3 = 1L;
+	}
+}
+
